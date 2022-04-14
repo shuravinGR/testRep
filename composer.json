@@ -1,0 +1,24 @@
+{
+  "name": "shuravin-gr/test-rep",
+  "description": "test rep",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Ttk",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "TestRep\\TestNamespace\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TestRep\\TestNamespaceTest\\": "tests"
+    }
+  },
+  "type": "project"
+}
